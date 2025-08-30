@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+// import logo from "@/assets/logo.png";
 import { getWixServerClient } from "@/lib/wix-client.server";
 // import { getWixClient } from "@/lib/wix-client.base";
 import { getCart } from "@/wix-api/cart";
@@ -76,7 +76,7 @@ export default async function Navbar() {
         </Suspense>
         <div className="flex flex-wrap items-center gap-5">
           <Link href="/" className="flex items-center gap-4">
-            <Image src={logo} alt="Flow Shop logo" width={40} height={40} />
+            <Image src="/logo.png" alt="Flow Shop logo" width={40} height={40} />
             <span className="text-xl font-bold">Yuricart</span>
           </Link>
           <MainNavigation

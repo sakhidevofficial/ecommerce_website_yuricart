@@ -1,6 +1,6 @@
 "use client";
 
-import logo from "@/assets/logo.png";
+// import logo from "@/assets/logo.png";
 import LoadingButton from "@/components/LoadingButton";
 import { Skeleton } from "@/components/ui/skeleton";
 import WixImage from "@/components/WixImage";
@@ -121,7 +121,7 @@ function Review({
           <div className="flex items-center gap-2">
             <CornerDownRight className="size-5" />
             <Image
-              src={logo}
+              src="/logo.png"
               alt="Flow Store logo"
               width={24}
               height={24}
