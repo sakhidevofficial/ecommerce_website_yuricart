@@ -1,4 +1,4 @@
-import banner from "@/assets/banner.jpg";
+// import banner from "@/assets/banner.jpg";
 import Product from "@/components/Products";
 import { Button } from "@/components/ui/button";
 // import Product from "@/components/Product";
@@ -36,9 +36,11 @@ export default function Home() {
         </div>
         <div className="relative hidden h-full w-1/2 md:block">
           <Image
-            src={banner}
+            src="/banner.jpg"
             alt="Flow Shop banner"
             className="h-full object-cover"
+            width={800}
+            height={400}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
